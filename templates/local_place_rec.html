@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% block title %} Local Place Rec {% endblock title %}
+{% block body %}
+<br>
+<div class="container text-center">
+    <div class="row align-items-start">
+        <div class="col">
+            <figure class="figure">
+                <div class="align_left">
+                    <img src="static/images/pexels-ryutaro-tsukata-6249395.jpg" class="figure-img img-fluid rounded"
+                        alt="...">
+                </div>
+                <figcaption class="figure-caption">Help the Tourists find you</figcaption>
+            </figure>
+        </div>
+        <div class="col">
+            <div class="container">
+                <form class="align_side">
+                    <h1> Recommend for the Tourists</h1>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Name of the place</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="location" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">location (Google map link)</label>
+                    </div>
+                    <br>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Description of the Place</label>
+                    </div>
+                    <br>
+                    <div class="form-floating">
+                        <input type="time" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Opening time</label>
+                    </div>
+                    <br>
+                    <div class="form-floating">
+                        <input type="time" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Closing time</label>
+                    </div>
+                    <br>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Price Approximation</label>
+                    </div>
+                    <br>
+                    <div class="input-group mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02">
+                        <label class="input-group-text" for="inputGroupFile02">Upload Images of the area</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary"><a href="local_home_page.html"
+                            style="text-decoration:none; color:white;">Submit</a></button>
+                </form>
+                </li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}

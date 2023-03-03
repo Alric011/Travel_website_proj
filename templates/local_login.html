@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title %} Local Login {% endblock title %}
+{% block body %}
+<br>
+<br>
+<div class="container text-center">
+    <div class="row align-items-start">
+        <div class="col">
+            <figure class="figure">
+                <div class="align_left">
+                    <img src="static/images/pexels-ryutaro-tsukata-6249395.jpg" class="figure-img img-fluid rounded"
+                        alt="...">
+                </div>
+                <figcaption class="figure-caption">Let us help you</figcaption>
+            </figure>
+        </div>
+        <div class="col">
+            <div class="container">
+                <form class="align_side">
+                    <h1> For Locals</h1>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Name</label>
+                    </div>
+                    <br>
+                    <div class="form-floating">
+                        <input type="number" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Phone No.</label>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary"><a href="homepage.html"
+                            style="text-decoration:none; color:white;">Submit</a></button>
+                </form>
+                </li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}

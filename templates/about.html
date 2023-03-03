@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% block title %} About Us {% endblock title %}
+{% block extra_css1 %}static/css/about.css{% endblock extra_css1 %}
+{% block body %}
+    <br>
+    <div class="container">
+        <br>
+        <h1>Code Of Duty</h1>
+        <p>Making it our duty to create and build for the world</p>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <div class="image" id="parent">
+                        <img src="static/images/20211114_164307-removebg-previe.png">
+                        <div class="col" style="padding-top:20px">
+                            <h5>Alric D'Souza</h5>
+                            <p>S.E. - S.K Somaiya College</p>
+                            <p>alric.dsouza@somaiya.edu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image" id="parent">
+                        <img src="static/images/IMG-20230108-WA0012-removebg-previe.png">
+                        <div class="col" style="padding-top:20px">
+                            <h5>Alston Soares</h5>
+                            <p>F.E. - Thakur College of Engineering and Technology</p>
+                            <p>alstonsoares17@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image" id="parent">
+                        <img src="static/images/20221122_160928-removebg-previe.png">
+                        <div class="col" style="padding-top:20px">
+                            <h5>Alvin D'Souza</h5>
+                            <p>F.E. - Fr. Conceicao Rodrigues College of Engineering</p>
+                            <p>alvindsouza2204@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+        <!-- <div class="container text-center">
+        <div class="row align-items-start"  style="margin-bottom: 1000px;">
+            <div class="col">
+                <h5>Alric D'Souza</h5>
+                <p>S.E. - S.K Somaiya College</p>
+                <p>alric.dsouza@somaiya.edu</p>
+            </div>
+            <div class="col">
+                <h5>Alston Soares</h5>
+                <p>F.E. - Thakur College of Engineering and Technology</p>
+                <p>alstonsoares17@gmail.com</p>
+            </div>
+            <div class="col">
+                <h5>Alvin D'Souza</h5>
+                <p>F.E. - Fr. Conceicao Rodrigues College of Engineering</p>
+                <p>alvindsouza2204@gmail.com</p>
+            </div>
+        </div>
+    </div> -->
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="static/images/WhatsApp Image 2023-01-21 at 01.37.51.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Our First Hackathon</h5>
+                            <p>On a journey to create and build for the world</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endblock body %}   
