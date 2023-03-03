@@ -1,1 +1,1 @@
-# Hackanova_CodeOfDuty
+#Project for travel website
